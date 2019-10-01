@@ -1,10 +1,8 @@
 package com.epam;
-//Переставить строки матрицы случайным образом
+//Переставить строки матрицы случайным образом
 
 public class Task37_multidim {
     public static void main(String[] args) {
-        int m = 5;
-        int n = 5;
         int[][] arr = {
                 {40, 14, 17, 45, 17, 71},
                 {45, 15, 13, 28, 11, 24},
