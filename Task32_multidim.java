@@ -1,5 +1,5 @@
 package com.epam;
-//Отсортировать строки матрицы по возрастанию и убыванию значений элементов.
+//Отсортировать строки матрицы по возрастанию и убыванию значений элементов.
 
 
 public class Task32_multidim {
@@ -59,31 +59,3 @@ public class Task32_multidim {
             sortB(LineB);
     }
 }
-
-        /*int[][] arr = {{10, 7, 4, 2}, {8, 3, 9, 11}};
-        if (arr.length == 0)
-            System.out.println("Исходный массив имеет нулевую длину");
-
-        System.out.println("Исходный массив:" + Arrays.toString(arr));
-
-        for (int a = arr.length - 1; a >= 1; a--) {
-                for (int i = 0; i < a; i++) {
-                    for (int j = 0; j < a; j++) {
-                        if (arr[i][j] > arr[i][j + 1]) {
-                            int temp = arr[i][j];
-                            arr[i][j] = arr[i][j + 1];
-                            arr[i][j + 1] = temp;
-                        }
-                    }
-                }
-        }
-
-        for (int i = 0; i < arr.length - 1; i++) {
-                for (int j = 0; j < arr.length - 1; j++) {
-                    if (i == j) {
-                        System.out.print(arr[i][j] + "   ");
-                    }
-                }
-                System.out.println();
-        }*/
-
